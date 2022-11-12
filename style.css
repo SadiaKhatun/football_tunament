@@ -1,0 +1,302 @@
+body{
+    width: 1000px;
+    margin-left: 300px;
+  
+    
+}
+/*header */
+.header{
+    background-color: black;
+    height: 400px;
+    width: 880px;
+    float: center;
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+}
+/*header text*/
+.text{
+    color: white;
+    width: 50%;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.htext{
+    color: white;
+    width: 50%;
+   
+}
+/*header pic*/
+.hpic{
+    margin-left: 30px;
+    width: 50%;
+    margin-top: 30px;
+}
+/*header button*/
+.button1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #dd0000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 5px;
+
+    
+  }
+  
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover span {
+    padding-right: 25px;
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /*nav button group */
+  .btn-group .button {
+    background-color: #ffffff; 
+    border: 0px;
+    color: rgb(8, 8, 8);
+    padding: 15px 32px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    margin: 20px;
+    border-radius: 5px;   
+    
+  }
+
+  .btn-group .button:not(:last-child) {
+    border-bottom: none; 
+  }
+  
+  .btn-group .button:hover {
+    background-color: #abd4ac;
+  }
+  .btn1{
+   padding-top: 5px;
+  }
+  nav {
+    float: left;
+    width: 20%;
+    height: 630px; /* only for demonstration, should be removed */
+    background: #ffffff;
+    padding: 10px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+ 
+  
+  /* section */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  section{
+    width: 1000px;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 630px;
+  }
+  /*button*/
+ 
+  .btn-group .button {
+    background-color: #f7fcf7; /* Green */
+    color: rgb(12, 11, 11);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button:hover {
+    background-color: #cdd6cd;
+  }
+  .botton{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  /*picture section artical*/
+  article {
+    float: left;
+    width: 70%;
+    background-color: #ffffff;
+    height: 630px; /*page hight*/
+    margin-bottom: 2px;
+  }
+  .image{
+   
+    height: 66.5px;
+    float: left;
+  }
+  div.gallery {
+   padding: 5px;
+    width: 200px;
+    height: 210px;
+   
+  }
+  
+  div.gallery img {
+    width: 200px;
+    height: 110px;
+    padding: 0px;
+    padding-right: 3px;
+    padding-bottom: 30px;
+    
+  }
+
+ /*artical text */
+  
+  div.desc {
+    padding-left: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+    padding-top: 0px;
+   
+  }
+
+  .responsive {
+    
+    float: left;
+    width: 30%;
+     border: 2px solid rgb(227, 228, 228);
+     margin-top: 5px;
+     margin-left: 5px;
+    border-radius: 5px;
+  }
+  .icon{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    line-break: 0;
+    display: inline-block;
+  }
+  /*footer */
+footer{
+  margin-top: 60px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  height: 200px;
+  width: 880px;
+  border-radius: 5px;
+  padding-top: 30px;
+}
+/*footer underline */
+input[type=text] {
+  width: 70%;
+  border: none;
+  border-bottom: .5px solid rgb(250, 249, 249);
+  background-color: black;
+}
+/*footer text */
+.text3 {
+  background-color: #000000; /* Green */
+  width: 700px;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*footer button's */
+.button {
+ background-color: #000000;
+ color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+.button:hover{
+    background-color: #cdd6cd;
+}
+
+/*next-page*/
+picture{
+    float: left;
+    width: 20%;
+    height: 500px; /* only for demonstration, should be removed */
+    background: #ffffff;
+    padding: 10px;
+
+}
+details:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  details{
+    width: 1000px;
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 500px;
+  }
+
+  /*picture section artical*/
+  aside {
+    float: left;
+    width: 70%;
+    background-color: #ffffff;
+    height: 500px; /*page hight*/
+    margin-bottom: 2px;
+  }
+  div.class {
+    float: left;
+    width: 20%;
+    height: 500px; /* only for demonstration, should be removed */
+    background: #ffffff;
+    padding: 10px;
+  }
+  /* next page*/
+  .nnav{
+    width: 30px;
+    height: 500px;
+  }
+  .nartical{
+    width: 30px;
+    height: 500px;
+  }
+  
