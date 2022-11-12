@@ -1,9 +1,8 @@
 body{
-    width: 1000px;
-    margin-left: 300px;
-  
-    
+    width: 1000;
+    background-size: 800px;   
 }
+
 /*header */
 .header{
     background-color: black;
@@ -105,7 +104,7 @@ body{
   nav {
     float: left;
     width: 20%;
-    height: 630px; /* only for demonstration, should be removed */
+    height: 700px; /* only for demonstration, should be removed */
     background: #ffffff;
     padding: 10px;
   }
@@ -128,7 +127,7 @@ body{
     width: 1000px;
     margin-top: 50px;
     border-radius: 20px;
-    height: 630px;
+    height: 700px;
   }
   /*button*/
  
@@ -161,7 +160,7 @@ body{
     float: left;
     width: 70%;
     background-color: #ffffff;
-    height: 630px; /*page hight*/
+    height: 720px; /*page hight*/
     margin-bottom: 2px;
   }
   .image{
@@ -217,7 +216,7 @@ footer{
   color: #ffffff;
   text-align: center;
   height: 200px;
-  width: 880px;
+  width: 920px;
   border-radius: 5px;
   padding-top: 30px;
 }
@@ -299,4 +298,21 @@ details:after {
     width: 30px;
     height: 500px;
   }
-  
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: rgb(135, 245, 83);
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    /* For tablets: */
+    body {
+      background-color: rgb(248, 250, 248);
+    }
+   
+  }
+  @media only screen and (min-width: 938px) {
+    /* For desktop: */
+    body {
+      background-color: white;
+    }
+  }
