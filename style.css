@@ -299,11 +299,12 @@ details:after {
   }
   /* next page*/
   .nnav{
-    width: 30%;
-    height: 500px;
+    width: 20%;
+    height: 100%;
+   
   }
   .nartical{
     width: 70%;
-    height: 500px;
+   height: 100%;
   }
   
